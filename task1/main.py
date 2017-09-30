@@ -8,7 +8,6 @@ def main():
     new_window = tk.Toplevel(root)
     my_canvas = canvas.MyCanvas(root)
     main_window = mainwindow.MainWindow(new_window, my_canvas)
-    my_canvas.build_graph("0")
 
     root.mainloop()
 
